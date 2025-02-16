@@ -22,7 +22,7 @@ public class GameLogic {
         return GameState.COMPLETE;
     }
 
-    private static boolean sudokuIsInvalid (int[][] grid) {
+    public static boolean sudokuIsInvalid (int[][] grid) {
         if (rowsAreInvalid(grid)) return true;
         if (columnsAreInvalid(grid)) return true;
         if (squaresAreInvalid(grid)) return true;
