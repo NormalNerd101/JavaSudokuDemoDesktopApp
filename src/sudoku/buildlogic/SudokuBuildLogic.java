@@ -3,6 +3,9 @@ package sudoku.buildlogic;
 import sudoku.problemdomain.IStorage;
 import sudoku.problemdomain.SudokuGame;
 import sudoku.userinterface.IUSerInterfaceContract;
+import sudoku.persistence.LocalStorageImpl;
+
+import java.io.IOException;
 
 public class SudokuBuildLogic {
     
